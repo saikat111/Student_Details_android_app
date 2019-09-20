@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sorde.studentdetails">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".ThirdActivity" />
+        <activity android:name=".AoboniActivity" />
+        <activity android:name=".RoniActivity" />
+        <activity android:name=".PromiActivity" />
+        <activity android:name=".SupriyaActivity" />
+        <activity android:name=".tanvirActivity" />
+        <activity android:name=".ChondaActivity" />
+        <activity android:name=".ShohanActivity" />
+        <activity android:name=".MuktaActivity" />
+        <activity android:name=".ChompaActivity" />
+        <activity android:name=".SojibActivity" />
+        <activity android:name=".JannatiActivity" />
+        <activity android:name=".DottoActivity" />
+        <activity android:name=".ZinatActivity" />
+        <activity android:name=".RintyActivity" />
+        <activity android:name=".HujaifaActivity" />
+        <activity android:name=".SujonActivity" />
+        <activity android:name=".SharminActivity" />
+        <activity android:name=".OmorActivity" />
+        <activity android:name=".DawanActivity"></activity>
+    </application>
+
+</manifest>
